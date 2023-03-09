@@ -5,6 +5,14 @@
         <title>My Super Hero Team</title>
         <link rel = "stylesheet" href = "CSS/main.css">
         <style>
+            .blink_me {
+                animation: blinker 250ms linear infinite;
+            }
+
+            @keyframes blinker {
+                50% {
+                    opacity: 0;
+                }
             h1 
             {
                 font-size: 35px;
@@ -27,7 +35,7 @@
         </style>
     </head>
     <body>
-        <h1>My Candidates</h1>
+        <div class="center blink_me"><h1>My Candidates</h1></div>
         <table>
             <thead style="background-color: lightgrey">
                 <tr>
