@@ -7,6 +7,7 @@ body
 {
     font-family: 'Times New Roman';
     color:blueviolet
+       
 }
 
 h1, h2, h3
@@ -14,6 +15,7 @@ h1, h2, h3
     color: black;
     font-family: 'Verdana';
     font-size: 35px;
+    text-decoration: underline;
 }
 img 
 {
