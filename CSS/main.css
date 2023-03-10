@@ -23,4 +23,10 @@ img
     opacity: 90%;
     
 }
-
+th,td
+{
+    border:1px solid black;
+    font-family: 'Times New Roman';
+    color: black;
+    padding: 10px;
+}
