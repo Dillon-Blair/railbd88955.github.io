@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- <link href="css/main.css" rel="stylesheet"> -->
+        <title>Google Enhanced Search</title>
+        <style>
+            h2 {
+                font-size: 20px;
+            }
+            #search {
+                width: 5em;
+                height: 3em;
+            }
+        </style>
+    </head>
+    <body>
+        <section id="Header">
+            <h1>Perform an Advanced Google Search</h1>
+        </section>
+            <form action="https://www.google.com/search" method="GET" target="_blank">
+                <fieldset id="toplevelset">
+                    <div>
+                        <label for="searchbox">Search String:</label>
+                        <input type = "text" name="q" id="searchbox" size="63" placeholder="Enter here">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="site">Search For Site:</label>
+                        <input name="as_sitesearch" type="text" id="site" placeholder="Enter here" size="61">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="ftype">Filetype?&nbsp;</label>
+                        <select name="as_filetype" id="ftype"> <!-- Select is a drop down menu-->
+                            <option value="">All Files</option>
+                            <option value="pdf">.docx</option>
+                            <option value="ppt">.ppt</option>
+                            <option value="docx">.pdf</option>
+                            <option value="txt">.txt</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="URLMatch">Include Pages With All Keywords?</label>
+                        <input type = "checkbox"  value = "body" name="as_occt" id="URLMatch">
+    
+                    </div>
+                    <br>
+                    <fieldset id = "lowerlevelset">
+                        <div>
+                            <label for="checkimage">Image Search?</label>
+                            <input type="checkbox" name="tbm" value="isch" id="checkimage">
+                        </div>
+                        <div>
+                            <label for="checkvideo">Video Search?</label>
+                            <input type="checkbox" name="tbm" value="vid" id="checkvideo">
+                        </div>
+                    </fieldset>   
+                </fieldset>
+                <input type="submit" value="Search">
+            </form>
+        <section id="Home Button">
+            <div>
+                <h3><a class="return" href="railbd88955.github.io/index.html">Link to Homepage</a></h3>
+            </div>
+        </section>
+    </body>
+</html>
