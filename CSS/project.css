@@ -1,0 +1,29 @@
+.header {
+    width: auto;
+    margin-top: 20px;
+    margin-left: 5px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    font-size: 40px;
+    }
+h1 {
+    color: black;
+
+}
+th {
+    width: auto;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+body {
+    background-color: aquamarine;
+}
+ol {
+    color: black; 
+}
+ul {
+    color:blue;
+}
