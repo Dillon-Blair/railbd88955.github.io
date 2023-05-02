@@ -3,7 +3,7 @@ html {
 }
 
 .header {
-    width: auto;
+    width: 90vw;
     margin-top: 20px;
     margin-left: 5px;
     border-bottom: 1px solid black;
@@ -16,7 +16,7 @@ h1 {
 
 }
 th {
-    width: auto;
+    width: 75%;
 }
 p {
     font-family: 'Times New Roman', Times, serif;
