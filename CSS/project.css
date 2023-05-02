@@ -25,6 +25,7 @@ p {
 body {
     background-color: aquamarine;
     position: relative;
+    width: 90%;
 }
 ol {
     color: black; 
