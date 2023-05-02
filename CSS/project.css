@@ -1,3 +1,7 @@
+html {
+ overflow-x: hidden;   
+}
+
 .header {
     width: auto;
     margin-top: 20px;
@@ -20,6 +24,7 @@ p {
 }
 body {
     background-color: aquamarine;
+    position: relative;
 }
 ol {
     color: black; 
